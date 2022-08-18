@@ -13,6 +13,9 @@
 		553E524E28AA741D0010059C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553E524C28AA741D0010059C /* Main.storyboard */; };
 		553E525028AA74210010059C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 553E524F28AA74210010059C /* Assets.xcassets */; };
 		553E525328AA74210010059C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553E525128AA74210010059C /* LaunchScreen.storyboard */; };
+		553E525B28AAA66C0010059C /* PizzaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553E525A28AAA66B0010059C /* PizzaViewController.swift */; };
+		553E525D28AAA9970010059C /* IngredientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553E525C28AAA9970010059C /* IngredientsViewController.swift */; };
+		556514C628AE6002007D1FAF /* PaymentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556514C528AE6002007D1FAF /* PaymentsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		553E524F28AA74210010059C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		553E525228AA74210010059C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		553E525428AA74210010059C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		553E525A28AAA66B0010059C /* PizzaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaViewController.swift; sourceTree = "<group>"; };
+		553E525C28AAA9970010059C /* IngredientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsViewController.swift; sourceTree = "<group>"; };
+		556514C528AE6002007D1FAF /* PaymentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				553E524828AA741D0010059C /* SceneDelegate.swift */,
 				553E524A28AA741D0010059C /* ViewController.swift */,
 				553E524C28AA741D0010059C /* Main.storyboard */,
+				556514C528AE6002007D1FAF /* PaymentsViewController.swift */,
+				553E525C28AAA9970010059C /* IngredientsViewController.swift */,
+				553E525A28AAA66B0010059C /* PizzaViewController.swift */,
 				553E524F28AA74210010059C /* Assets.xcassets */,
 				553E525128AA74210010059C /* LaunchScreen.storyboard */,
 				553E525428AA74210010059C /* Info.plist */,
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				553E525D28AAA9970010059C /* IngredientsViewController.swift in Sources */,
 				553E524B28AA741D0010059C /* ViewController.swift in Sources */,
+				553E525B28AAA66C0010059C /* PizzaViewController.swift in Sources */,
+				556514C628AE6002007D1FAF /* PaymentsViewController.swift in Sources */,
 				553E524728AA741D0010059C /* AppDelegate.swift in Sources */,
 				553E524928AA741D0010059C /* SceneDelegate.swift in Sources */,
 			);
